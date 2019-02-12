@@ -60,6 +60,10 @@ def path_to_word(grid, path):
     return ''.join([grid[p] for p in path])
 
 
+def word_in_dictionary(word, dict):
+    return word in dict
+
+
 def search(grid, dictionary):
     """
     Search thrugh the paths to locate words by matching
@@ -70,7 +74,7 @@ def search(grid, dictionary):
 
     def do_search(path):
         word = path_to_word(grid, path)
-        if word in dictionary:
+        if word_in_dictionary(word, dictionary):
             paths.append(path)
         for next_pos in neighbours[path[-1]]:
             if next_pos not in path:
@@ -106,4 +110,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+main()
