@@ -1,14 +1,8 @@
 Welcome to my Python project on Cloud9 IDE!
 
-A basic sample web application was added to this
+A basic sample web application was added to the
 workspace, from the excellent Python tutorial _Learning Python the Hard Way_.
 
-## Useful resources
-
-* _Learning Python The Hard Way_, online version and videos: 
-http://learnpythonthehardway.org/book/
-
-* Full book: http://learnpythonthehardway.org
 
 ## Starting from the Terminal
 
